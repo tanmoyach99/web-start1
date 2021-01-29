@@ -1,0 +1,71 @@
+body{
+    font-family: 'Bodoni Moda', serif;
+    margin: 0;
+}
+h1{
+    font-size: 50px;
+}
+
+
+
+.name{
+    color: orange;
+}
+.half-width{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+}
+.half-width img{
+    margin: 2px;
+    width: 60%;
+    
+}
+.bg-image{
+    background-repeat: no-repeat;
+    background-image: url("images/top-banner.png");
+    
+}
+section{
+    height:  500px;
+    padding: 50px;
+    
+}
+.link-btn{
+    background-color: red;
+    padding: 8px 15px;
+    text-decoration: none;
+    color: white;
+    border-radius: 5px;
+    background-image: linear-gradient(45deg,salmon,tomato);
+    box-shadow: inset 20px -25px 1px -15px orangered;
+
+}
+.bg-img-2{
+    background-repeat: no-repeat;
+    background-image: url("images/dream-bg.png");
+    background-position: right;
+}
+.single-ex{
+    box-shadow: 10px 10px 40px gray;
+}
+.bg-img-3{
+    background-image: url("images/exp-bg.png");
+    background-repeat: no-repeat;
+    background-position: left;
+}
+#full-ex{
+    border-image: linear-gradient(45deg,salmon,orange);
+    border-image-slice: 1;
+    border-left:7px solid orange;
+    
+}
+#half-ex{
+    border-image: linear-gradient(45deg,blue,cyan);
+    border-image-slice: 1;
+    border-left:7px solid cyan;
+}
+footer{
+    text-align: center;
+}
